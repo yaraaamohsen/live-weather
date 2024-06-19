@@ -63,7 +63,7 @@ function display(){
                 <p class="day mb-0">${dayOfWeek1}</p>
               </header>
               <section class="p-3 text-center">
-                <img class="py-3" src="http:${weatherArray[1].day.condition['icon']}">
+                <img class="py-3" src="https:${weatherArray[1].day.condition['icon']}">
                 <h5 class="dayDeg fs-3">${weatherArray[1].day.maxtemp_c}°C</h5>
                 <h6 class="nightDeg fs-6">${weatherArray[1].day.mintemp_c}°C</h6>
                 <p class="text-primary py-2">${weatherArray[1].day.condition['text']}</p>
@@ -76,7 +76,7 @@ function display(){
                 <p class="day mb-0">${dayOfWeek2}</p>
               </header>
               <section class="p-3 text-center">
-                <img class="py-3" src="http:${weatherArray[2].day.condition['icon']}">
+                <img class="py-3" src="https:${weatherArray[2].day.condition['icon']}">
                 <h5 class="dayDeg fs-3">${weatherArray[2].day.maxtemp_c}°C</h5>
                 <h6 class="nightDeg fs-6">${weatherArray[2].day.mintemp_c}°C</h6>
                 <p class="text-primary py-2">${weatherArray[2].day.condition['text']}</p>
