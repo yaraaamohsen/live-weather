@@ -17,7 +17,7 @@ async function weather(city){
 weather('cairo');
 
 searchInput.addEventListener('input', async function(){
-    let searchText = await fetch(`http://api.weatherapi.com/v1/search.json?key=6a53b6c615924b24b81133712241506&q=${searchInput.value}`);
+    let searchText = await fetch(`https://api.weatherapi.com/v1/search.json?key=6a53b6c615924b24b81133712241506&q=${searchInput.value}`);
     const searchResult = await searchText.json();
     weather(searchResult[0].name)
 })
